@@ -1,9 +1,9 @@
 const is_odd = require('is-odd')
 
-console.log("====================================")
-console.log("Program Begins")
-console.log(is_odd(1)) // true
-console.log(is_odd(2)) // false
-console.log(is_odd(3)) // true
-console.log("Program Ends")
-console.log("====================================")
+console.log("============[Program Begins]================")
+
+console.log("Is 1 odd? ", is_odd(1))
+console.log("Is 2 odd? ", is_odd(2))
+console.log("Is 3 odd? ", is_odd(3))
+
+console.log("============[Program Ends]================")

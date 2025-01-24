@@ -12,7 +12,7 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     outputs:
-      imageid: ${{ steps.build-and-push.outputs.image }}
+      imageid: ${{ steps.build-and-push.outputs.imageid }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4

@@ -1,3 +1,3 @@
-const is-odd = require('is-odd')
+const is_odd = require('is-odd')
 
-console.log(is-odd(1)) // true
+console.log(is_odd(1)) // true
